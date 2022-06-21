@@ -141,3 +141,23 @@ span {
 span:hover {
     background-size: 100% 3px;
 }
+
+@media screen and (max-width:975px) {
+
+    .upper-profile h1 {
+        font-size: 2rem;
+        color: #262626;
+    }
+
+    .upper-profile .profile-dp img {
+        margin-left: 5vh;
+        width: 30vh;
+        height: 30vh;
+        border-radius: 100%;
+    }
+
+    .upper-profile p {
+        font-size: 0.7rem;
+    }
+    
+}
