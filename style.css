@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.master-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    height: 130vh;
+    margin: auto;
+    background-color: #FAFAFA;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    width: 75%;
+    margin-top: 2vh;
+}
+
+.navbar div {
+    width: 30%;
+}
+
+.navbar .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.social img {
+    width: 4vh;
+    height: 4vh;
+}
+
+.upper-profile {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: 5% 0%;
+    height: 25vh;
+    width: 100%;
+}
+
+.upper-profile div {
+    width: 45%;
+    height: 100%;    
+}
+
+.upper-profile .profile-dp img {
+    margin-left: 15vh;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100%;
+}
+
+.upper-profile h1 {
+    font-size: 3rem;
+    color: #262626;
+}
+
+.stories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15vh;
+    margin: 5% 0%;
+}
+
+.stories div {
+    width: 15vh;
+    height: 15vh;
+    text-align: center;
+}
+
+.stories div{
+    width: 15vh;
+    height: 15vh;
+    border-radius: 100%;
+}
+
+.stories div h1{
+    color: #05386B;
+}
+
+.label-text {
+    margin: 2.5vh;
+}
+
+.posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+.posts div {
+    width: 33%;
+    height: 49.5%;
+    overflow: hidden;
+}
+
+.posts div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.posts div img:hover {
+    transform: scale(1.25);
+    transition: all .5s;
+}
+
+.posts div img:not(:hover) {
+    transform: scale(1);
+    transition: all .5s;
+}
+
+                                            /* Magical Stuff */
+
+span {
+    text-align: center;
+    background-image: linear-gradient(90deg, white, cyan, black);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 1s ease;
+}
+
+span:hover {
+    background-size: 100% 3px;
+}
