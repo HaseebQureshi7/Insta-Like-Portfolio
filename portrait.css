@@ -108,9 +108,9 @@
 }
 
 .posts div {
-    width: 22vh;
-    height: 22vh;
-    margin-top: 1%;
+    width: 49vw;
+    height: 49vw;
+    /* margin-top: 1%; */
     overflow: hidden;
 }
 
