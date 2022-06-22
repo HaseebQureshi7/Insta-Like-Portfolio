@@ -10,6 +10,7 @@
 .animation-screen {
     position: fixed;
     display: flex;
+    background-color: white;
     background-image: url('img/daily-garabato-2021.gif');
     background-repeat: no-repeat;
     background-position: center;
