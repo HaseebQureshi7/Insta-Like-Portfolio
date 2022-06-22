@@ -62,6 +62,31 @@
     border-radius: 100%;
 }
 
+/* Experimental */
+
+/* .upper-profile .profile-dp img:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 0%;
+    z-index: 999;
+    transition: all 1s;
+}
+
+.upper-profile .profile-dp img:not(:hover) {
+    margin-left: 15vh;
+    object-fit: cover;
+    width: 30vh;
+    height: 30vh;
+    border-radius: 100%;
+    transition: all 4s;
+} */
+
 .upper-profile h1 {
     font-size: 3rem;
     color: #262626;
@@ -115,6 +140,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    cursor: url('img/cursors/open-custom-cursor.png'), auto;
 }
 
 .posts div img:hover, .social div:hover {
@@ -140,6 +166,10 @@ span {
 
 span:hover {
     background-size: 100% 3px;
+}
+
+* {
+    cursor: url('img/cursors/custom-cursor.png'), auto;
 }
 
 pen {
