@@ -9,6 +9,13 @@ document.querySelector('.instagram').addEventListener("click", () => window.open
 document.querySelector('.posts6').addEventListener("click", () => window.open("https://github.com/HaseebQureshi7", "_self"));
 
 
+var today = new Date;
+today = today.toDateString()
+console.log(today);
+
+document.querySelector('.text').innerHTML = "<h2>"+today+"</h2>";
+
+
 // For Testing Only
 document.querySelector('.posts1').addEventListener("click", () => window.location.href = "posts/post-view.html");
 
