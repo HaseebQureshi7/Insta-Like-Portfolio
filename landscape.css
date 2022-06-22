@@ -117,12 +117,12 @@
     object-fit: cover;
 }
 
-.posts div img:hover {
+.posts div img:hover, .social div:hover {
     transform: scale(1.25);
     transition: all .5s;
 }
 
-.posts div img:not(:hover) {
+.posts div img:not(:hover), .social div:not(:hover) {
     transform: scale(1);
     transition: all .5s;
 }
