@@ -15,10 +15,10 @@
     display: flex;
     justify-content: center;
     background-color: white;
-    background-image: url('img/daily-garabato-2021.gif');
+    background-image: url('img/minimalist-circle.gif');
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
     align-items: center;
 }
 
