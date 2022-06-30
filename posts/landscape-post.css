@@ -7,6 +7,14 @@
     font-family: 'Bebas Neue', cursive;
 }
 
+h2 {
+    color: #05386B
+}
+
+h3 {
+    color: #262626;
+}
+
 .master-conatiner {
     display: flex;
     flex-direction: column;
@@ -47,8 +55,20 @@
     text-align: center;
 }
 
+.picture-menu .likes h3 {
+    color: rgb(221, 21, 21) !important;
+}
+
+.picture-menu .website-link h3 {
+    color: #05386B !important;
+}
+
+.picture-menu .team h3 a, .team h3 {
+    color: rgb(6, 133, 155) !important;
+}
+
 .picture-menu .website-link h3 a, .team h3 a {
-    color: black;
+    color: #05386B !important;
     text-decoration: none;
 }
 
@@ -77,6 +97,6 @@
 }
 
 .post-content .description ul li {
-    list-style-type: none;
+    list-style-type:decimal;
     margin: 0.5%;
 }
